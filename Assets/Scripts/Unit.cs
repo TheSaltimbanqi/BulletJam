@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Rigidbody2D rb2d;
+    [Header("Stats")]
+    public float speed = 0;
+    public float attack = 1f;
+    public int lives = 3;
+    
 }
